@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace QuranMushafAPI
 {
+    /**
+     This class has collection of Sura documents for Mushafs
+
+        V 0.1 - Added Pakistani Mushaf support.
+     */
     public class SuraData
     {
         Dictionary<int, SuraDocument> pakistaniSuras = new Dictionary<int, SuraDocument>();
@@ -15,8 +20,6 @@ namespace QuranMushafAPI
 
         public SuraData(string path)
         {
-            //string[] pakistaniFiles = Directory.GetFiles(pakistaniDirectory, "*.html", SearchOption.TopDirectoryOnly);
-
             pakistaniSuras = FileLoader.LoadSurasFromFolder(path);
 
         }

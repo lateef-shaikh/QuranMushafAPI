@@ -8,6 +8,10 @@ using System.Xml;
 
 namespace QuranMushafAPI.Utility
 {
+    /**
+     This class loads a Sura HTML file and creates a SuraDocument object
+     */
+
     public class FileLoader
     {
         public SuraDocument suraDocument;

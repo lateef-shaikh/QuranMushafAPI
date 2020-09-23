@@ -7,6 +7,9 @@ using System.Xml;
 
 namespace QuranMushafAPI.Utility
 {
+    /**
+     This class has static functions for XML processing
+     */
     class XmlFunctions
     {
         public static int CheckAndLoadInt(XmlNode node, string attribName, int nullVal)

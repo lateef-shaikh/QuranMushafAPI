@@ -7,6 +7,11 @@ using System.Xml;
 
 namespace QuranMushafAPI.Utility
 {
+    /** 
+     This class keeps Aaya data in fields.
+
+        V 0.1 - Added End of Aaya as separate public field.
+     */
     public class Aaya
     {
         //data-aaya="1" data-juz="1" data-ruku="1" data-manzil="1"

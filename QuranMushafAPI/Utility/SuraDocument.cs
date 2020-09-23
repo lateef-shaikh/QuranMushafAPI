@@ -10,6 +10,9 @@ using System.Xml;
 
 namespace QuranMushafAPI.Utility
 {
+    /** 
+     This class stores Sura data in XML format. It also holds Aaya objects for all Aayas
+     */
     public class SuraDocument
     {
         private XmlDocument htmlDocument;
